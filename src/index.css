@@ -1,4 +1,5 @@
 body {
+  background-color: #c4e6f9;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -27,18 +28,18 @@ code {
 }
 
 .note.new {
-  background-color: #B5E2FA;
+  background-color: #5dc8d2;
 }
 
 textarea {
   border: none;
   resize: none;
-  background-color: #B5E2FA;
+  background-color: #5dc8d2;
   outline: none;
 }
 
 .save {
-  background-color: #F9F7F3;
+  background-color: #e6e3de;
   border: none;
   border-radius: 15px;
   padding: 5px 10px 5px 10px;
@@ -70,3 +71,17 @@ textarea {
   cursor: pointer;
 }
 
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #e6e3de;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search input{
+  border: none;
+  background-color: #e6e3de;
+  outline: none;
+}
