@@ -26,8 +26,31 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+.note.new {
+  background-color: #B5E2FA;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-color: #B5E2FA;
+  outline: none;
+}
+
+.save {
+  background-color: #F9F7F3;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+
+.save:hover {
+  background-color: #d7d1c4;
+  cursor: pointer;
+}
+
 .note{
-  background-color: #FAEDCA;
+  background-color: #EDDEA4;
   border-radius: 10px;
   padding: 1rem;
   min-height: 170px;
