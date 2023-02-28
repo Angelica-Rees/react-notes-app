@@ -1,5 +1,5 @@
 body {
-  background-color: #c4e6f9;
+  background-color: #F9F7F3;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,12 +13,27 @@ code {
     monospace;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode H1{
+  color: white;
+}
+
 .container {
   max-width: 960px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  min-height: 100vh;
 }
 
 .notes-list {
@@ -28,13 +43,13 @@ code {
 }
 
 .note.new {
-  background-color: #5dc8d2;
+  background-color: #B5E2FA;
 }
 
 textarea {
   border: none;
   resize: none;
-  background-color: #5dc8d2;
+  background-color: #B5E2FA;
   outline: none;
 }
 
@@ -85,3 +100,4 @@ textarea {
   background-color: #e6e3de;
   outline: none;
 }
+
