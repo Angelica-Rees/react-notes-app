@@ -66,3 +66,7 @@ textarea {
   justify-content: space-between;
 }
 
+.delete-icon:hover{
+  cursor: pointer;
+}
+
