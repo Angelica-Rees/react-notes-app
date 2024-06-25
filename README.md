@@ -41,14 +41,18 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## How to Run Using Docker 
 1. Have Docker running [https://docs.docker.com/engine/install/]
+   
+2. Clone repository using Git Bash [https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository]
+   
+3. Have Docker running [https://docs.docker.com/engine/install/]
 
-2. Within this directory run `docker build -f Dockerfile -t notes .`
+4. Within this directory run `docker build -f Dockerfile -t notes .`
 
-3. Run `docker run -d -it -p 3000:3000 notes`
+5. Run `docker run -d -it -p 3000:3000 notes`
 
-4. Go to browser and type `localhost:3000`
+6. Go to browser and type `localhost:3000`
 
-5. When finished with it, run `docker stop <docker container id>`
+7. When finished with it, run `docker stop <docker container id>`
 
 
 ## Learn More
